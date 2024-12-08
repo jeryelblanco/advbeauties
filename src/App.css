@@ -186,14 +186,15 @@ margin-top: 5%;
   .Footer{
     display: flex;
     flex-direction: row;
-    background-color: #66522ef3;
+    background-color: #66522ecb;
     justify-content: center;
     align-items: center;
-    padding-top: 4%;
+    padding-top: 1%;
   }
 .Footer > a{
   margin-right:2%;
 }
+
 #caption{
   float: right;
   position: relative;
