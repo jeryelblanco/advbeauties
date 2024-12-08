@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url("./Media/background.jpeg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: #c2ae88;
+}
+
+
+
+
+.App{
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+
+}
+#Header{
+  /* border-style: groove; */
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #c2ae88;
+  opacity: 90%;
+
+
+}
+
+#Header h1{
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #4e432d;
+  width: 70%;
+  transform: translate(20%, -20%);
+
+}
+#logo{
+  background-color: #4e432d;
+  
+}
+/* #logoback{
+  width: 73.0333px;
+  height:70px;
+
+  position: absolute;
+  left: 0%;
+  top:0%;
+  border-style: dashed;
+
+} */
+.NavLink{
+  width: 30%;
+  border-width: 5px;
+  align-content: center;
+
+  
+}
+.NavLink a{
+  margin-right: 5%;
+  text-decoration: none;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4e432d;
+
+}
+#navbar{
+  position: relative;
+  left: 5%;
+  margin-right: 0;
+
+
+}
+.hamburger-react{
+float : right;
+
+}
+
+#booknow{
+  background-color: #4e432d54;
+  border-style: outset;
+  margin-right: 0;
+  
+  
+}
+/* #Box1{
+  border-style: groove;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  text-align: center;
+
+} */
+/* #Box1child1{
+  border-style: groove;
+  height: 100%;
+  width: 100%;
+} */
+/* #Box1child2{
+  border-style: groove;
+  height: 100%;
+  width: 100%;
+} */
+#Body1{
+  /* border-style: groove; */
+  /* height: 100%; */
+  margin-top: 60%;
+  background-color: #66522e;
+  width: fit-content;
+  text-align: center;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 40%;
+  border-style: inset;
+  /* transform: translate(245%, 0%); */
+  position: relative;
+  left: 40%;
+  right: 40%;
+  
+ 
+}
+#Body1 h1{
+  color: #c2ae88;
+ 
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+#Body1 p{
+  color: #4e432d;
+}
+#anc{
+  text-decoration: none;
+}
+#Body2{
+  /* border-style: groove; */
+  height: 100%;
+  background-color: #c2ae88;
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  width:100%;
+  /* transform: translate(10%, 0%); */
+}
+#Body2 h1{
+  color: #4e432d;
+}
+#Body2 p{
+  color: #4e432d;
+  font-size: larger;
+}
+#Body1 video{
+width: 100%;
+margin-top: 5%;
+}
+/* #Box3{
+  border-style: groove;
+  height: 10vh;
+;
+}
+#Box4{
+  border-style: groove;
+  height: 10vh;
+
+  }    */
+
+  #vaglogo, #iglogo{
+    width: 40px;
+  }
+
+  .Footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #66522ef3;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+  }
+.Footer > a{
+  margin-right:2%;
+}
+#caption{
+  float: right;
+  position: relative;
+
+}
+
+.slide-container{
+  width: 100%;
+  height: 50px;
+}
+
+
+
+.Gallery{
+  width: 100%;
+
+}
+@media only screen and (max-width: 1005px) {
+  /* .NavLink{
+  height:100%;
+
+} */
+#navbar{
+  display: flex;
+  flex-direction: column;
+  width:55%;
+  float: right;
+  top: 60%;
+  left: 35%;
+  background-color: #4e432da8;
+}
+#navbar > a{
+  margin-bottom: 4%;
+  color: #c2ae88;
+}
+#navbar > a:hover{
+  
+  background-color: white;
+}
+}
+@media only screen and (min-width: 1006px) {
+  .hamburger-react{
+    display: none;
+  }
+}
+
+/* @media only screen and (max-width: 950px){
+  html,body{
+    background-size: auto;
+  }
+} */
+ @media only screen and (max-width: 950px){
+  html,body{
+    background-size: contain;
+    background-position: top;
+  }
+  #Body1{
+    margin-top: 50%;
+
+  }
+}
+@media only screen and (max-width: 800px){
+  #Body1{
+    left: 37%;
+  }
+}
+@media only screen and (max-width: 610px){
+  #Body1{
+    left: 34%;
+  }
+}
+@media only screen and (max-width: 512px){
+  html,body{
+    background-size: 700px;
+    background-position: top
+  }
+  #Body1{
+    margin-top: 77%;
+  }
+  #Body1{
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 415px){
+  #Body1{
+    left: 25%;
+    margin-top: 85%;
+  }
+}
+
