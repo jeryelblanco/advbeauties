@@ -116,7 +116,7 @@ float : right;
 #Body1{
   /* border-style: groove; */
   /* height: 100%; */
-  margin-top: 60%;
+  margin-top: 50%;
   background-color: #66522e;
   width: fit-content;
   text-align: center;
@@ -127,9 +127,9 @@ float : right;
   border-style: inset;
   /* transform: translate(245%, 0%); */
   position: relative;
-  left: 40%;
-  right: 40%;
-  
+  /* left: 40%;
+  right: 40%; */
+  align-self: center;
  
 }
 #Body1 h1{
@@ -210,6 +210,7 @@ margin-top: 5%;
 
 .Gallery{
   width: 100%;
+  height: 92vh;
 
 }
 @media only screen and (max-width: 1005px) {
@@ -217,6 +218,7 @@ margin-top: 5%;
   height:100%;
 
 } */
+
 #navbar{
   display: flex;
   flex-direction: column;
@@ -236,11 +238,44 @@ margin-top: 5%;
 }
 }
 @media only screen and (min-width: 1006px) {
+  #Body2{
+    width: 80%;
+    height: 90vh;
+    align-self: center;
+    background-color: #66522e;
+    line-height: 500%;
+    
+   }
+   #Body2 p{
+    color: black;
+   }
+   #Body2 h1{
+    color: black;
+   }
   .hamburger-react{
     display: none;
   }
+  .slide-container{
+    width: 50%;
+    padding-left: 25%;
+    height:100%;
+    
+  }
+  .Gallery{
+    background-color: rgba(0, 0, 0, 0.815);
+  }
 }
-
+/* These two media tags are specifically to reduce height of About section*/
+@media only screen and (min-width: 1774px) {
+  #Body2{
+    height: 70vh;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #Body2{
+    height: 50vh;
+  }
+}
 /* @media only screen and (max-width: 950px){
   html,body{
     background-size: auto;
@@ -257,14 +292,14 @@ margin-top: 5%;
   }
 }
 @media only screen and (max-width: 800px){
-  #Body1{
+  /* #Body1{
     left: 37%;
-  }
+  } */
 }
 @media only screen and (max-width: 610px){
-  #Body1{
+  /* #Body1{
     left: 34%;
-  }
+  } */
 }
 @media only screen and (max-width: 512px){
   html,body{
@@ -274,13 +309,13 @@ margin-top: 5%;
   #Body1{
     margin-top: 77%;
   }
-  #Body1{
+  /* #Body1{
     left: 30%;
-  }
+  } */
 }
 @media only screen and (max-width: 415px){
   #Body1{
-    left: 25%;
+    /* left: 25%; */
     margin-top: 85%;
   }
 }
