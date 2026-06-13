@@ -14,11 +14,13 @@ html, body{
   background-color: #c2ae88;
 }
 
-
+#root{
+  height: 100%;
+}
 
 
 .App{
-  
+  height: 100%;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -155,6 +157,7 @@ float : right;
   font-weight: 400;
   font-style: normal;
   width:100%;
+  
   /* transform: translate(10%, 0%); */
 }
 #Body2 h1{
@@ -179,10 +182,16 @@ margin-top: 5%;
 
   }    */
 
-  #vaglogo, #iglogo{
+#iglogo{
     width: 40px;
   }
-
+#vaglogo{
+  height: 35px;
+  width: 70px;
+}
+#iglogo, #vaglogo{
+  
+}
   .Footer{
     display: flex;
     flex-direction: row;
@@ -238,20 +247,14 @@ margin-top: 5%;
 }
 }
 @media only screen and (min-width: 1006px) {
-  #Body2{
-    width: 80%;
-    height: 90vh;
-    align-self: center;
-    background-color: #66522e;
-    line-height: 500%;
-    
-   }
+
    #Body2 p{
     color: black;
    }
    #Body2 h1{
     color: black;
    }
+
   .hamburger-react{
     display: none;
   }
@@ -267,20 +270,17 @@ margin-top: 5%;
 }
 /* These two media tags are specifically to reduce height of About section*/
 @media only screen and (min-width: 1774px) {
-  #Body2{
-    height: 70vh;
-  }
+
 }
 @media only screen and (min-width: 1920px) {
-  #Body2{
-    height: 50vh;
-  }
+
 }
 /* @media only screen and (max-width: 950px){
   html,body{
     background-size: auto;
   }
 } */
+
  @media only screen and (max-width: 950px){
   html,body{
     background-size: contain;

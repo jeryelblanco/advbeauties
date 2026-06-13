@@ -11,6 +11,7 @@ const [isOpen, setOpen] = useState(false)
 const [bool, setBool] = useState(false)
 
 
+
 function useWindowSize(){
 const [sizeScreen, setSizeScreen] = useState({
 width: window.innerWidth,
@@ -74,6 +75,7 @@ useEffect(()=>{
 //             }
 // },[sizeScreen])
 
+
 return (
    <div className = 'NavLink'>
 
@@ -82,8 +84,8 @@ return (
      {bool ? <>
      <NavLink to = "/">Home</NavLink>
     <NavLink to = "/gallery" >Gallery</NavLink>
-    <NavLink to = {{pathname: "https://www.vagaro.com/advbeauty/services"}} target = "_blank">Services</NavLink>
-    <a id = "booknow" href = "https://www.vagaro.com/advbeauty">Book Now </a>
+    <NavLink to = {{pathname: "https://adv-beauty.square.site/"}} target = "_blank">Services</NavLink>
+    <a id = "booknow" href = "https://adv-beauty.square.site/">Book Now </a>
     </> : null}
     </span>
 
