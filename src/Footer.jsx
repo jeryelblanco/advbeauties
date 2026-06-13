@@ -11,7 +11,7 @@ function Footer(){
 <a href = "https://adv-beauty.square.site/" target = "_blank" >
 <img id = "vaglogo" src = {logovag}></img>
 </a>
-<span style={{position: 'relative', float: 'right'}}> created by &copy;Lifestylez</span>
+<span style={{position: 'relative', float: 'right'}}> created by &copy;Smartchip LLC</span>
     </div>
    )
 }
